@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <h1>Formulário Aluno</h1>
+    <p>Acesse o Formulário abaixo:</p>
+    <form class="button">
+        <fieldset>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Analy"><br>
+        <label for="nasc">Data de Nascimento:</label><br>
+        <input type="text" id="nasc" name="nasc" placeholder="15/06/2013"><br>
+        <label for="fname">Email:</label><br>
+        <input type="text" id="email" name="email" placeholder="analy@etec.sp.gov.br"><br>
+        <label for="lname">Curso:</label><br>
+        <input type="text" id="curso" name="curso" placeholder="Informática"><br><br>
+        <input type="button" value="Adicionar" onclick="formulario()">
+        <input type="button" value="Exibir">
+        <input type="button" value="Exibir Nomes" onclick="ViewName()">
+        <input type="button" value="Alterar" onclick="ViewName()">
+    </fieldset>
+    </form>
+</body>
+</html>
+
